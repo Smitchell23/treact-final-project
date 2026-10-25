@@ -269,12 +269,22 @@ header .row {
     justify-content: space-between;
 }
 
-.highlight-color {
-    color: #6415ff;
+.header__description {
+    width: 40%;
 }
 
 .header__description--para {
     margin: 32px 0;
+}
+
+.header__email {
+    width: 100%;
+    max-width: 448px;
+    height: 68px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .header__email--input {
@@ -285,7 +295,7 @@ header .row {
     color: rgba(36, 62, 99);
     font-size: 16px;
     font-weight: 500;
-    
+    position: absolute;
     top: 0;
     bottom: 0;
     z-index: 1;
